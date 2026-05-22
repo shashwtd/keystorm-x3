@@ -1,6 +1,6 @@
 # =============================================================================
 # hello-hardware — Pathfinder (KiCad) + project notes
-# Tracks: design sources, RESOURCES/, images/, JOURNAL.md, sym-lib-table
+# Tracks: design sources, libraries/, images/, JOURNAL.md, sym-lib-table, fp-lib-table
 # =============================================================================
 
 # --- OS & editor junk ---

@@ -16,7 +16,7 @@ downloaded KiCad, downloaded kicad-wakatime, setup KiCad & created a new project
 the guide is pretty interesting. im gonna use [this](https://github.com/Seeed-Studio/OPL_Kicad_Library/blob/master/Seeed%20Studio%20XIAO%20Series%20Library/Seeed_Studio_XIAO_Series.kicad_sym) board as the microcontroller/brain for my thing. Ok. i was trying to download that and use it in KiCad but apparently my KiCad is outdated🫩 gonna install the latest kicad now.
 
 **3:10 AM**
-okay, latest kicad installed. I setup everything again. was finally able to load and import the symbol i was having issues with last time. I placed it on the schematic editor, and also added some buttons and a custom LED. any custom components are present in the ./RESOURCES folder.
+okay, latest kicad installed. I setup everything again. was finally able to load and import the symbol i was having issues with last time. I placed it on the schematic editor, and also added some buttons and a custom LED. any custom components are present in the `./libraries/` folder.
 
 **3:20 AM**
 wow! i learned about wiring, and global tags. its pretty fun. i also learned some keyboard shortcuts which makes doing anything much easier. im now gonna wire everything up.
@@ -25,6 +25,3 @@ wow! i learned about wiring, and global tags. its pretty fun. i also learned som
 wohoooo did some basic wiring and its really fun. i ended up with this schematic desigin after everything was done. and as per the guide, i am done with this part of making the pathfinder. 
 ![[schematic_design_intial.png.png|497]]
 next, we need to start designing the PCB
-
-
-
