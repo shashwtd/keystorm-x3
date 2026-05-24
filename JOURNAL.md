@@ -1,4 +1,4 @@
-### May 23rd, 2026: First steps & doing schematic + pcb design
+### May 23rd, 2026: basic setup & designing schematics
 
 **02:10 AM**
 I started with my project. im yet to decide what. but im gonna follow the opensauce guide and walk through it for my project setup. Once done, im gonna make a simple hardware project by following one of stasis/blueprint guides. The plan is, once i make something simple, i want to dedicate myself to building something really complicated. I'm excited wohoooo!!
@@ -24,4 +24,16 @@ wow! i learned about wiring, and global tags. its pretty fun. i also learned som
 **3:33 AM**
 wohoooo did some basic wiring and its really fun. i ended up with this schematic desigin after everything was done. and as per the guide, i am done with this part of making the pathfinder. 
 ![[schematic_design_intial.png.png|497]]
-next, we need to start designing the PCB
+next, we need to start designing the PCB & maybe do some changes?
+
+---
+
+### May 24rd, 2026: adding a buzzer
+
+**17:01 PM**
+I don't want my pcb to feel generic. to add a sense of uniqueness, I decided to keep it simple but add some more new components. one of those components is a buzzer. I decided to use a passive buzzer so i can have it play different unique sounds. I found a ton of buzzer footprints from this kicad webpage https://kicad.github.io/footprints/Buzzer_Beeper.html and ended up going with Buzzer_12x9.5RM7.6 (Generic Buzzer, D12mm height 9.5mm with RM7.6mm) since it was the best one for my use case.. only has two pins and is simple enough to wire up
+
+**17:14 PM**
+I also added proper resistor values to all the resistors, wired up the buzzer, and fixed some errors & warnings for unused pins. this is how the final schematic design turned out to be: 
+![[final_schematic_design.png.png|362]]
+
