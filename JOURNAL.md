@@ -48,3 +48,6 @@ finalized the layout of my pcb and organized all the components accordingly. nex
 i wired everything up. i later realized this is a very bad wiring and learned about layers later during the tutorial. but tbh, nothing is intersecting and the circuit should work without any issues. im gonna let this be for now. but for future projects I'll use multiple layers to have a cleaner wiring
 ![[pcb_design_after_wiring.png.png|388]]
 ![[pcb_render.png.png|389]]
+
+**20:20 PM**
+I spent way too long on this than I should have, however I was able to figure out how to assign a 3d model to button footprint. I also added the model for devboard & the LED lights

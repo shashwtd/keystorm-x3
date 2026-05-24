@@ -664,7 +664,18 @@
 			(uuid "322b2b9f-7c2e-4ac4-b28c-5a87ad49a653")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/MX .STEP"
+			(offset
+				(xyz 4.75 2.25 5.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
+		(model "${KIPRJMOD}/libraries/3dmodels/DSA_Keycap_CherryMX.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -672,7 +683,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -2875,7 +2886,18 @@
 			(uuid "5b49c632-d42a-4b23-abdc-b7182835a7af")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/MX .STEP"
+			(offset
+				(xyz 4.75 2.25 5.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
+		(model "${KIPRJMOD}/libraries/3dmodels/DSA_Keycap_CherryMX.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2883,7 +2905,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -3160,15 +3182,27 @@
 			(uuid "dd3cba0a-f75f-4ecc-945f-af93a66f7899")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/MX .STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 4.75 2.25 5.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -180)
+			)
+		)
+		(model "${KIPRJMOD}/libraries/3dmodels/DSA_Keycap_CherryMX.step"
+			(opacity 0.9200)
+			(offset
+				(xyz -2.5 -5.5 8.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
