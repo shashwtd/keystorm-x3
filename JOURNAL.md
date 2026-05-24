@@ -53,3 +53,8 @@ i wired everything up. i later realized this is a very bad wiring and learned ab
 I spent way too long on this than I should have, however I was able to figure out how to assign a 3d model to button footprint. I also added the model for devboard & the LED lights
 ![[pcb_design_with_3dmodels.png.png|381]]
 
+**23:10 PM**
+removed all the component labels, and instead did some designs for silkscreen. the front of silkscreen has some shapes and the back of silkboard has some text stuff written on it. 
+![[silkscreen_design_back.png.png|379]]
+
+
