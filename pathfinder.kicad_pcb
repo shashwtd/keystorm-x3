@@ -103,7 +103,7 @@
 			)
 		)
 		(property "Value" "L08R5000Q1"
-			(at 4.23 -0.5 180)
+			(at 4.23 -0.5 0)
 			(layer "F.Fab")
 			(uuid "c63393b3-1f9d-472f-9d54-88665bba1ce1")
 			(effects
@@ -390,6 +390,17 @@
 			(uuid "df32d17a-1452-4dbc-a3d7-15b50734c958")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/libraries/3dmodels/L08R5000Q1/L08R5000Q1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -676,8 +687,9 @@
 			)
 		)
 		(model "${KIPRJMOD}/libraries/3dmodels/DSA_Keycap_CherryMX.step"
+			(opacity 0.9200)
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -5.5 8.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1047,7 +1059,7 @@
 			)
 		)
 		(property "Value" "L08R5000Q1"
-			(at 4.23 0 180)
+			(at 4.23 0 0)
 			(layer "F.Fab")
 			(uuid "84fdf2c8-055d-41b7-821b-0975fe56e198")
 			(effects
@@ -1334,6 +1346,17 @@
 			(uuid "799fa8de-0a3f-42dc-a01d-4b1e3ab0f70f")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/libraries/3dmodels/L08R5000Q1/L08R5000Q1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
@@ -2249,19 +2272,7 @@
 			(uuid "5ee95650-c855-4d50-96d8-93158b45c6c0")
 		)
 		(embedded_fonts no)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-nRF52840 v15.step"
-			(hide yes)
-			(offset
-				(xyz -1.778 -6.096 0.381)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeeduino XIAO SAMD21 v4.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/Seeed Studio XIAO RP2040/Seeed Studio XIAO RP2040 v26.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2269,43 +2280,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeed Studio XIAO RP2040 v26.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 90)
-			)
-		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeed Studio XIAO-ESP32-C3.step"
-			(hide yes)
-			(offset
-				(xyz -1.7018 -6.096 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-ESP32S3 v2.step"
-			(hide yes)
-			(offset
-				(xyz -1.778 -6.1722 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -2612,6 +2587,17 @@
 			(uuid "12d932a4-a2e1-400f-af63-4dc47f990c4b")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/libraries/3dmodels/L08R5000Q1/L08R5000Q1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -2898,8 +2884,9 @@
 			)
 		)
 		(model "${KIPRJMOD}/libraries/3dmodels/DSA_Keycap_CherryMX.step"
+			(opacity 0.9200)
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -5.5 8.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -3464,6 +3451,30 @@
 		(uuid "91f3414a-7865-430e-87a3-8f4d68aa0101")
 	)
 	(segment
+		(start 137.876749 113.445876)
+		(end 139.084249 112.238376)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(D1-PadA)")
+		(uuid "215ae529-4ff2-4ac2-9a50-fe5495e9c2c0")
+	)
+	(segment
+		(start 139.084249 112.238376)
+		(end 139.084249 102.658376)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(D1-PadA)")
+		(uuid "6c789d8d-6b6c-4d4c-900f-00b90875823d")
+	)
+	(segment
+		(start 139.084249 102.658376)
+		(end 144.336749 97.405876)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(D1-PadA)")
+		(uuid "e6458ec0-a554-467e-a16d-8e575bcb9256")
+	)
+	(segment
 		(start 167.688249 113.025876)
 		(end 168.750249 111.963876)
 		(width 0.2)
@@ -3608,6 +3619,54 @@
 		(uuid "fe3ceafb-0fb6-4158-bf14-acfbc92b8f22")
 	)
 	(segment
+		(start 167.688249 96.708246)
+		(end 158.465879 87.485876)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "button2")
+		(uuid "caa652ac-7edb-44a1-b95b-feab80a488cc")
+	)
+	(segment
+		(start 158.465879 87.485876)
+		(end 143.256749 87.485876)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "button2")
+		(uuid "d7233803-10ae-4a9e-93d0-4204db78b5a1")
+	)
+	(segment
+		(start 167.688249 97.785876)
+		(end 167.688249 96.708246)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "button2")
+		(uuid "f7317c2e-f27e-4e12-85cf-a8d1bff610e2")
+	)
+	(segment
+		(start 161.063249 95.405876)
+		(end 162.608249 96.950876)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "LED1")
+		(uuid "8091e52b-79ac-42b8-a816-b3843b3c39b0")
+	)
+	(segment
+		(start 149.416749 97.405876)
+		(end 151.416749 95.405876)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "LED1")
+		(uuid "86c30b6f-39d0-4bd4-b322-775d6a8b5d37")
+	)
+	(segment
+		(start 151.416749 95.405876)
+		(end 161.063249 95.405876)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "LED1")
+		(uuid "8f7175ed-c237-491a-b5d1-e68441ee9ad0")
+	)
+	(segment
 		(start 145.336749 96.991662)
 		(end 144.750963 96.405876)
 		(width 0.2)
@@ -3646,30 +3705,6 @@
 		(layer "F.Cu")
 		(net "Net-(BZ1-+)")
 		(uuid "c7c34118-7ad1-47e5-978f-aae2a1db3aaa")
-	)
-	(segment
-		(start 137.876749 113.445876)
-		(end 139.084249 112.238376)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(D1-PadA)")
-		(uuid "215ae529-4ff2-4ac2-9a50-fe5495e9c2c0")
-	)
-	(segment
-		(start 139.084249 112.238376)
-		(end 139.084249 102.658376)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(D1-PadA)")
-		(uuid "6c789d8d-6b6c-4d4c-900f-00b90875823d")
-	)
-	(segment
-		(start 139.084249 102.658376)
-		(end 144.336749 97.405876)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(D1-PadA)")
-		(uuid "e6458ec0-a554-467e-a16d-8e575bcb9256")
 	)
 	(segment
 		(start 139.484249 113.546039)
@@ -3712,6 +3747,22 @@
 		(uuid "d114102d-434e-4910-b573-474638c15582")
 	)
 	(segment
+		(start 160.068249 97.785876)
+		(end 155.448249 102.405876)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "LED2")
+		(uuid "5c62e968-7a01-4166-aafd-6a4ef814bd1d")
+	)
+	(segment
+		(start 155.448249 102.405876)
+		(end 149.376749 102.405876)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "LED2")
+		(uuid "7b12bebf-acbb-48ed-a314-b44fdf284321")
+	)
+	(segment
 		(start 123.254249 115.053376)
 		(end 121.376749 113.175876)
 		(width 0.2)
@@ -3742,46 +3793,6 @@
 		(layer "F.Cu")
 		(net "Net-(D3-PadA)")
 		(uuid "ea656d98-04cf-4b25-8d62-f063baadb954")
-	)
-	(segment
-		(start 161.063249 95.405876)
-		(end 162.608249 96.950876)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "LED1")
-		(uuid "8091e52b-79ac-42b8-a816-b3843b3c39b0")
-	)
-	(segment
-		(start 149.416749 97.405876)
-		(end 151.416749 95.405876)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "LED1")
-		(uuid "86c30b6f-39d0-4bd4-b322-775d6a8b5d37")
-	)
-	(segment
-		(start 151.416749 95.405876)
-		(end 161.063249 95.405876)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "LED1")
-		(uuid "8f7175ed-c237-491a-b5d1-e68441ee9ad0")
-	)
-	(segment
-		(start 160.068249 97.785876)
-		(end 155.448249 102.405876)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "LED2")
-		(uuid "5c62e968-7a01-4166-aafd-6a4ef814bd1d")
-	)
-	(segment
-		(start 155.448249 102.405876)
-		(end 149.376749 102.405876)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "LED2")
-		(uuid "7b12bebf-acbb-48ed-a314-b44fdf284321")
 	)
 	(segment
 		(start 148.376749 106.365876)
@@ -3824,38 +3835,6 @@
 		(uuid "f94b9db1-01cd-40bd-afbd-ceb446bc2273")
 	)
 	(segment
-		(start 147.976749 101.825977)
-		(end 147.976749 111.005876)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "buzzer")
-		(uuid "0d4fdca2-9ab5-4609-ad05-e9e21a23f1e9")
-	)
-	(segment
-		(start 154.988249 97.785876)
-		(end 152.01685 97.785876)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "buzzer")
-		(uuid "d33cc7c3-2580-46a4-b53f-fafeb1808cb7")
-	)
-	(segment
-		(start 152.01685 97.785876)
-		(end 147.976749 101.825977)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "buzzer")
-		(uuid "e2159267-c295-47c5-a6e4-72debf5921d0")
-	)
-	(segment
-		(start 147.976749 111.005876)
-		(end 149.376749 112.405876)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "buzzer")
-		(uuid "fc4fbcb0-47a0-41f0-b167-5f4f8dc3efab")
-	)
-	(segment
 		(start 170.228249 95.337376)
 		(end 162.376749 87.485876)
 		(width 0.2)
@@ -3870,30 +3849,6 @@
 		(layer "F.Cu")
 		(net "button1")
 		(uuid "81d549e4-e87c-4b9a-86b2-917609057ae6")
-	)
-	(segment
-		(start 167.688249 96.708246)
-		(end 158.465879 87.485876)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "button2")
-		(uuid "caa652ac-7edb-44a1-b95b-feab80a488cc")
-	)
-	(segment
-		(start 158.465879 87.485876)
-		(end 143.256749 87.485876)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "button2")
-		(uuid "d7233803-10ae-4a9e-93d0-4204db78b5a1")
-	)
-	(segment
-		(start 167.688249 97.785876)
-		(end 167.688249 96.708246)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "button2")
-		(uuid "f7317c2e-f27e-4e12-85cf-a8d1bff610e2")
 	)
 	(segment
 		(start 157.325879 88.885876)
@@ -3926,6 +3881,38 @@
 		(layer "F.Cu")
 		(net "button3")
 		(uuid "ed89808d-eead-463b-bfcc-1e31e86cf7ff")
+	)
+	(segment
+		(start 147.976749 101.825977)
+		(end 147.976749 111.005876)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "buzzer")
+		(uuid "0d4fdca2-9ab5-4609-ad05-e9e21a23f1e9")
+	)
+	(segment
+		(start 154.988249 97.785876)
+		(end 152.01685 97.785876)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "buzzer")
+		(uuid "d33cc7c3-2580-46a4-b53f-fafeb1808cb7")
+	)
+	(segment
+		(start 152.01685 97.785876)
+		(end 147.976749 101.825977)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "buzzer")
+		(uuid "e2159267-c295-47c5-a6e4-72debf5921d0")
+	)
+	(segment
+		(start 147.976749 111.005876)
+		(end 149.376749 112.405876)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "buzzer")
+		(uuid "fc4fbcb0-47a0-41f0-b167-5f4f8dc3efab")
 	)
 	(embedded_fonts no)
 )

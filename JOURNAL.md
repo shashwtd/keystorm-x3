@@ -51,3 +51,5 @@ i wired everything up. i later realized this is a very bad wiring and learned ab
 
 **20:20 PM**
 I spent way too long on this than I should have, however I was able to figure out how to assign a 3d model to button footprint. I also added the model for devboard & the LED lights
+![[pcb_design_with_3dmodels.png.png|381]]
+
