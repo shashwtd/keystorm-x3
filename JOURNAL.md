@@ -57,4 +57,20 @@ I spent way too long on this than I should have, however I was able to figure ou
 removed all the component labels, and instead did some designs for silkscreen. the front of silkscreen has some shapes and the back of silkboard has some text stuff written on it. 
 ![[silkscreen_design_back.png.png|379]]
 
+---
+### May 25th, 2026: coding the firmware & final steps
 
+**00:42 AM**
+installed arduino IDE, studied docs for some time. For my use case, we need to make sure that if we plug this device in a computer, it should actually be able to act as a macropad and pass key inputs. since i dont have the board ready with my physically, I am gonna make it act as a basic keyboard + also utilize buzzer and the LED lights while pressing. 
+
+I'm gonna use the keyboard library to make this work. the firmware has the following features:
+- plays a nice startup animation when it boots up (LEDs & buzzer)
+- has a copy, paste & enter key button
+- whenever you press a button, it plays a custom buzzer sound for each and the respective LED also lights up based on what button you pressed
+
+this is a very basic script i wrote. eventually the idea is to allow custom modes on it maybe design a software and even make a pcb case because why not. 
+
+**01:05** 
+done w scripting
+
+---
