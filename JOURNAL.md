@@ -37,3 +37,6 @@ I don't want my pcb to feel generic. to add a sense of uniqueness, I decided to 
 I also added proper resistor values to all the resistors, wired up the buzzer, and fixed some errors & warnings for unused pins. this is how the final schematic design turned out to be: 
 ![[final_schematic_design.png.png|362]]
 
+**17:55 PM**
+i mapped all the footprints & downloaded all the 3d models that i would need to prepare the design. all of these files can be found in /library/3d_models folder
+
