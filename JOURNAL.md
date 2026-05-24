@@ -28,7 +28,7 @@ next, we need to start designing the PCB & maybe do some changes?
 
 ---
 
-### May 24rd, 2026: adding a buzzer
+### May 24rd, 2026: adding a buzzer & designing the PCB
 
 **17:01 PM**
 I don't want my pcb to feel generic. to add a sense of uniqueness, I decided to keep it simple but add some more new components. one of those components is a buzzer. I decided to use a passive buzzer so i can have it play different unique sounds. I found a ton of buzzer footprints from this kicad webpage https://kicad.github.io/footprints/Buzzer_Beeper.html and ended up going with Buzzer_12x9.5RM7.6 (Generic Buzzer, D12mm height 9.5mm with RM7.6mm) since it was the best one for my use case.. only has two pins and is simple enough to wire up
@@ -40,3 +40,11 @@ I also added proper resistor values to all the resistors, wired up the buzzer, a
 **17:55 PM**
 i mapped all the footprints & downloaded all the 3d models that i would need to prepare the design. all of these files can be found in /library/3d_models folder
 
+**18:30 PM**
+finalized the layout of my pcb and organized all the components accordingly. next step would be to wire up the pcb following those blue lines
+![[pcb_design_before_wiring.png.png|382]]
+
+**18:45 PM**
+i wired everything up. i later realized this is a very bad wiring and learned about layers later during the tutorial. but tbh, nothing is intersecting and the circuit should work without any issues. im gonna let this be for now. but for future projects I'll use multiple layers to have a cleaner wiring
+![[pcb_design_after_wiring.png.png|388]]
+![[pcb_render.png.png|389]]
