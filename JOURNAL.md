@@ -70,7 +70,11 @@ I'm gonna use the keyboard library to make this work. the firmware has the follo
 
 this is a very basic script i wrote. eventually the idea is to allow custom modes on it maybe design a software and even make a pcb case because why not. 
 
-**01:05** 
+**01:05 AM**
 done w scripting
+
+**03:50 AM**
+I underestimated how long it would take me to find all the parts & materials. spent a total of 3 hours just searching for the right resistors + a good pcb printing vendor. eventually figured everything out and here is the BOM that i prepared: https://docs.google.com/spreadsheets/d/1Z7pQt6PCEZvinR357QXdnwnkV8Bckr60LjoRv5xW0wc/edit?usp=sharing
+![[BOM.png.png]]
 
 ---

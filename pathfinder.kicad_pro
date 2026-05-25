@@ -526,7 +526,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "fabrication files/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
