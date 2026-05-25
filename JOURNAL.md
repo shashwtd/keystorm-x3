@@ -23,7 +23,7 @@ wow! i learned about wiring, and global tags. its pretty fun. i also learned som
 
 **3:33 AM**
 wohoooo did some basic wiring and its really fun. i ended up with this schematic desigin after everything was done. and as per the guide, i am done with this part of making the pathfinder. 
-![[schematic_design_intial.png.png|497]]
+<img src="images/schematic_design_intial.png" width="497">
 next, we need to start designing the PCB & maybe do some changes?
 
 ---
@@ -35,27 +35,27 @@ I don't want my pcb to feel generic. to add a sense of uniqueness, I decided to 
 
 **17:14 PM**
 I also added proper resistor values to all the resistors, wired up the buzzer, and fixed some errors & warnings for unused pins. this is how the final schematic design turned out to be: 
-![[final_schematic_design.png.png|362]]
+<img src="images/final_schematic_design.png" width="362">
 
 **17:55 PM**
 i mapped all the footprints & downloaded all the 3d models that i would need to prepare the design. all of these files can be found in /library/3d_models folder
 
 **18:30 PM**
 finalized the layout of my pcb and organized all the components accordingly. next step would be to wire up the pcb following those blue lines
-![[pcb_design_before_wiring.png.png|382]]
+<img src="images/pcb_design_before_wiring.png" width="382">
 
 **18:45 PM**
 i wired everything up. i later realized this is a very bad wiring and learned about layers later during the tutorial. but tbh, nothing is intersecting and the circuit should work without any issues. im gonna let this be for now. but for future projects I'll use multiple layers to have a cleaner wiring
-![[pcb_design_after_wiring.png.png|388]]
-![[pcb_render.png.png|389]]
+<img src="images/pcb_design_after_wiring.png" width="388">
+<img src="images/pcb_render.png" width="389">
 
 **20:20 PM**
 I spent way too long on this than I should have, however I was able to figure out how to assign a 3d model to button footprint. I also added the model for devboard & the LED lights
-![[pcb_design_with_3dmodels.png.png|381]]
+<img src="images/pcb_design_with_3dmodels.png" width="381">
 
 **23:10 PM**
 removed all the component labels, and instead did some designs for silkscreen. the front of silkscreen has some shapes and the back of silkboard has some text stuff written on it. 
-![[silkscreen_design_back.png.png|379]]
+<img src="images/silkscreen_design_back.png" width="379">
 
 ---
 ### May 25th, 2026: coding the firmware & final steps
@@ -75,6 +75,6 @@ done w scripting
 
 **03:50 AM**
 I underestimated how long it would take me to find all the parts & materials. spent a total of 3 hours just searching for the right resistors + a good pcb printing vendor. eventually figured everything out and here is the BOM that i prepared: https://docs.google.com/spreadsheets/d/1Z7pQt6PCEZvinR357QXdnwnkV8Bckr60LjoRv5xW0wc/edit?usp=sharing
-![[BOM.png.png]]
+<img src="images/BOM.png" width="500">
 
 ---
