@@ -93,3 +93,40 @@ I underestimated how long it would take me to find all the parts & materials. sp
 > **total time spent: ~3.5 hours**
 
 ---
+### July 9th, 2026: assembling my macropad
+
+**2:20 PM:** 
+I got my macropad PCB delivered to me yesterday evening, but finally it's here. I pretty much have every single part that I need except the pcb which was missing, i also got myself a proper soldering iron, stand, flux, solder wire etc.. 
+
+It took me quite some time to figure out how soldering is supposed to work, was able to install the resistors in and not so long after, I was pretty much done with my build. I had soldered every single component, all well organized, well soldered.
+
+I also spent some time trying to understand how arduino firmware script works and eventually wrote a firmware which allows me to basically beep the macropad and light up the respective LED
+![[Pasted image 20260710035835.png]]
+NOW NOW NOW AS SOON AS I WAS DONE
+
+the problem is, i soldered the LEDs wrong. the polarity is reversed and they wont work at all. i bent the pins and everything so i cant really remove the LEDs. i dont even have any pliers or such.. I decided to accept my fate and just go with it. I played around, tried really hard to find a workaround but unfortunately nothing really worked as well
+
+> **total time spent: 2.5 hours***
+
+---
+
+### July 10th, 2026: another attempt?
+
+**04:02 AM**:
+hey! it's my birthday today. we wrapped up the celebration and now I had nothing else to do. decided to get back to my project. I realised that I could just connect another LED, bend it to face upwards and then solder it on the same pin and things would eventually work. plucking out the old LED wasn't working but its fine. we dont need to remove it. just add another LED which works. 
+
+AND SURPRISINGLY, this was a pretty good idea. i started soldering thigs and this is how it is:
+![[soldered_board_back.jpeg]]
+If you notice the wires on bottom, how they're bent and everything and facing upwards.. those are LEDs, the new ones that I just added... it works!! :D
+
+![[final_front_keystorm_image.jpeg]]
+the board also lights up, everything looks good!!!
+
+I had one problem tho, the red led for some reason is not working. It makes a beep sound on the buzzer that means that connection is working but for some reason the actual LED, it just does not work??? I tested out multiple times, used up like 3-4 LEDs soldered jumper wires in there but no success. the thing is, at the very first, it was the RED led that i soldered first. but then that stopped working and i removed it and swapped the LED and did this like 2-3 times and none of the times it worked so I just decided to keep it away.
+
+the good thing is, connection works, I can hear the buzzer and thats all what matters. the other two switches work with their respective LEDs and thats awesome. here's a video i made, it demonstrates me using the board to play buzzer sounds and LEDs:
+![[video.mp4]]
+
+> **total time spent: 1.5hrs***
+
+---

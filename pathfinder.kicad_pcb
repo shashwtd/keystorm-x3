@@ -51,10 +51,10 @@
 		(capping no)
 		(filling no)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_5757f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -84,7 +84,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "fabrication files/")
+			(outputdirectory "fabrication files/keystorm-gerber/")
 		)
 	)
 	(footprint "L08R5000Q1:LEDRD254W57D500H1070"
@@ -4154,9 +4154,9 @@
 		)
 	)
 	(barcode
-		(at 165 105.5 90)
+		(at 165.197466 105.3 90)
 		(layer "B.SilkS")
-		(size 11.514592 11.25995)
+		(size 11.005068 11.005068)
 		(text "https://tinyurl.com/kesx3")
 		(text_height 1)
 		(type qr)
